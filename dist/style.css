@@ -1,0 +1,147 @@
+body
+{
+ Background-color:#FFE6EE;
+ font-family: Times New Romans;
+ max-width: 100%;
+ padding: 50px 0px 50px 0px;
+ margin: 50px 0px 50px 0px;
+}
+
+#header
+{
+width: 100%;
+align-items: center;
+position: fixed;
+display: flex;
+top: 0;     /* The navbar should always be at the top of the viewport. */
+
+}
+
+#header-img, .logo
+{
+ width:100px;
+ height:100px;
+ margin-left: 0px;
+ }
+
+
+#nav-bar
+{
+ display: flex;
+ position: flex;
+ width: 100%;
+ justify-content: space-around;
+ font-size: 30px;
+ background-color:#362b57;
+ background-size: cover;
+}
+
+nav
+{
+ width: 100;
+}
+
+.nav-link
+{
+ color: white;
+}
+
+#sign-up-page
+{
+ height: 500px;
+ weight: 300%;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ font-size: 20px;
+}
+
+#form
+{
+ text-align:center;
+ margin-bottom:100px;
+}
+
+#video-page
+{
+ height:300px;
+ display:flex;
+ margin:20px 10px 20px 10px;
+ justify-content: center;
+ align-items:center;
+}
+
+#video
+{
+ text-align:center;
+}
+
+
+
+#Text
+{
+ width: 50%;
+ display: inline;
+ text-align:justify;
+}
+
+p
+{
+ font-size: 250%;
+}
+
+ul
+
+{ 
+ font-size: 150%;
+ flex: 1 1 auto;  /*!-- 1-grow; 1 - shrink, auto- basis */
+  
+}
+
+#DIY,#delivery, #contact, #FAQ
+
+{
+ 
+  text-align: center;
+}
+
+#DIY-img
+{
+ width: 100%;
+ float: center;
+}
+
+
+#delivery-img
+{
+ 
+ weight:50%;
+ float: center;
+ 
+}
+
+#contact-img 
+{  
+  height:200px;
+  weight:50%;
+
+ }
+
+#FAQ-img
+{
+ height:130px;
+ weight:50%;
+}
+
+@media only screen and (max-width: 600px) 
+{
+     body 
+      {    
+       background-color: lightblue; 
+       }
+
+     #nav-bar
+     {
+      display:none;
+      }
+}
